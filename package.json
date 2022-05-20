@@ -1,15 +1,20 @@
 {
   "private": true,
+  "type": "module",
   "dependencies": {
     "@arcgis/core": "^4.23.0"
   },
+  "devDependencies": {
+    "@parcel/bundler-experimental": "2.5.1-nightly.2719",
+    "@parcel/core": "2.0.0-nightly.1094",
+    "parcel": "2.0.0-nightly.1094"
+  },
   "scripts": {
-    "build": "npx build parcel src/index.html",
-    "start": "npx parcel src/index.html"
+    "build": "parcel build src/index.html",
+    "start": "parcel src/index.html"
   },
   "name": "parcel-jsapi",
   "version": "1.0.0",
-  "main": "index.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
