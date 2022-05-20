@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "dependencies": {
+    "@arcgis/core": "^4.23.0"
+  },
+  "scripts": {
+    "build": "npx build parcel src/index.html",
+    "start": "npx parcel src/index.html"
+  },
+  "name": "parcel-jsapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
