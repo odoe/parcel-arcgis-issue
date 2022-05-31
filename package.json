@@ -5,9 +5,8 @@
     "@arcgis/core": "^4.23.0"
   },
   "devDependencies": {
-    "@parcel/bundler-experimental": "2.5.1-nightly.2719",
-    "@parcel/core": "2.0.0-nightly.1094",
-    "parcel": "2.0.0-nightly.1094"
+    "@parcel/bundler-experimental": "~2.6.0",
+    "parcel": "~2.6.0"
   },
   "scripts": {
     "build": "parcel build src/index.html",
